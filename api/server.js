@@ -11,7 +11,7 @@ app.use(express.static(__dirname + './../app/'));
 var PORT = 80;
 
 //responses
-app.listen(8080,function(){
+app.listen(80,function(){
 	console.log('Server started on http://localhost:8080');
 	console.log('Press CTRL + C to stop server');
 

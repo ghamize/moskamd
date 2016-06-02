@@ -1,0 +1,139 @@
+@font-face {
+	font-family: "Yellowtail";
+	src: url(../fonts/Yellowtail-Regular.otf) format("truetype");
+}
+
+@font-face{
+	font-family: "OpenSans";
+	src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url(../fonts/OpenSans-Bold.ttf) format("truetype");
+}
+
+body {
+	font-family: "OpenSans";
+	color: #aaaaaa;
+}
+
+b {
+	font-family: "OpenSans-bold";
+}
+
+
+.main_header {
+	display: block;
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+	width: 48%;
+}
+
+
+.left_nav {
+	text-align: center;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	font-family: "Yellowtail", Helvetica;
+	color: #797979;
+	font-size: 18pt;
+}
+
+.wrapper {
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+.footer {
+	margin: auto;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 150px;
+	width: 85%;
+	max-width: 1000px;
+	font-family: "OpenSans-Bold", Helvetica;
+	color: #bbbbbb;
+}
+
+.inside_content {
+	max-width: 800px;
+	margin: auto;
+	margin-top: 50px;
+	padding-bottom: 10px;
+}
+
+.separator {
+	width: 30%;
+	margin-left: 20px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.social {
+	margin: auto;
+	width: 60%;
+}
+
+.social_img {
+	padding: 10px;
+}
+
+.social_img:hover{
+	opacity: 0.6;
+}
+
+
+
+.content_headers {
+	font-family: "Yellowtail";
+	text-align: center;
+	color: #797979;
+	font-size: 32pt;
+}
+
+.content_text {
+	color: #aaaaaa;
+	font-family: "OpenSans";
+}
+
+.indent {
+	margin: auto;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.bold {
+	font-family: "OpenSans-Bold";
+	color: #aaaaaa;
+}
+
+a:hover {
+	color: #cea134;
+}
+
+.left_nav a:hover{
+	color: #cea134;
+}
+
+.left_nav a {
+	color: #797979;
+	cursor: pointer;
+}
+
+a {
+	color: #aaaaaa;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.academics_divide {
+	margin: 50px;
+}
+
+.top_divide {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
